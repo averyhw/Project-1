@@ -8,21 +8,78 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!--https://fonts.google.com/?category=Sans+Serif&selection.family=Open+Sans-->
 
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="top-bar">
-        <p>MINI of Raleigh</p>
+        <div class="col-lg-12 col-sm-12 col-xs-12 top-bar">
+        <p class="dashboard-text1">
+          MINI of Raleigh <a href=#><img class="gear" src="../Project1/pics/question.png"></a><a href=#><img class="gear" src="../Project1/pics/gear-white.png"></a>
+        </p>
       </div>
-      </div> <!--/row>
+    </div> <!--/row-->
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 col-xs-12 icon-bar">
+        <nav class="col-lg-8 col-sm-10 col-xs-12 icons">
+          <ul id="navlist">
+            <li><a href=#><img class="icon-images" id="dashboard-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a></li> <!--https://css-tricks.com/spriting-img/-->
+            <li><a href=#><img class="icon-images" id="customers-green" src="../Project1/pics/customers-green.png" alt="icons"></a></li>
+            <li><a href=#><img class="icon-images" id="messages-green" src="../Project1/pics/messages-green.png" alt="icons"></a></li>
+            <li><a href=#><img class="icon-images" id="promotions-green" src="../Project1/pics/promotions-green.png" alt="icons"></a></li>
+            <li><a href=#><img class="icon-images" id="list-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a></li>
+            <li><a href=#><img class="icon-images" id="analytics-green" src="../Project1/pics/analytics-green.png" alt="icons"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div><!--/row-->
+    <div class="row">
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-10 col-sm-10 col-xs-10 dashboard row">
+        <div class="col-lg-3 col-sm-3 col-xs-3">
+        <p class="dashboard-text">Dashboard</p>
+      </div>
+      <div class="col-lg-6"></div>
+      <div class="col-lg-3 col-sm-5 col-xs-5">
+        <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
+          <input type="text" name="search"><a href=#><img class="search-icon" src="../Project1/pics/search.png"></a>
+        </form>
+      </div>
+    </div>
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+    </div><!--/row-->
+    <div class="row">
+      <div class="col-lg-10 col-sm-10 col-xs-10 announcements row">
+        <div class="col-lg-2 col-sm-2 col-xs-2">
+        <p class="announcements-text">ANNOUNCEMENTS</p>
+      </div>
+      <div class="col-lg-9 col-sm-5 col-xs-5">
+        <p class="black-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+      </div>
+      <div class="col-lg-1 col-sm-2 col-xs-2">
+        <p><img class="orange-arrow" src="../Project1/pics/left-orange-arrow.png"><img class="orange-arrow" src="../Project1/pics/right-orange-arrow.png"></p>
+      </div>
+      </div>
+    </div><!--/row-->
+    </div> <!--/container-fluid-->
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-10 col-xs-12 tasks-stuff">
+        <p class="tasks">Tasks <img class="tasks-gear" src="../Project1/pics/gear.png"></p>
+      </div><!--/row-->
+      <div class="row">
+        <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
+          <p><img class="task-pic" src="../Project1/pics/green-one.png">Welcome Contacts<img class="task-pic" src="../Project1/pics/blue-person.png">32</p>
+        </div>
+      </div><!--/row-->
+    </div><!--/tasks-div-->
 
     <!--Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  </div> <!--/container>
+</div> <!--/container-->
   </body>
 </html>
