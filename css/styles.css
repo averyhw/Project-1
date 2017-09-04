@@ -59,6 +59,7 @@
 #dashboard-green a:hover{
   background: url:(../Project1/pics/dashboard-blue2.png);
 }
+
 a.icon-images:hover{
   background: url:('../Project1/pics/dashboard-blue2.png');
 }
@@ -135,6 +136,42 @@ a.icon-images:hover{
 a.task-link:hover{
   text-decoration: none;
 }
-.activity{
+.form-date{
   float: right;
 }
+.date-arrow{
+  height: 20px;
+  width: auto;
+  margin-top: 5px;
+  float: right;
+}
+.activity-text{
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 10pt;
+  margin-left: 40px;
+}
+.rec-pic-1{
+  height: 30px;
+  width: auto;
+  margin-right: 30px;
+  float: left;
+}
+.bar-graph{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.social-media{
+  margin-left: 5px;
+  height: 50px;
+  width: auto;
+}
+.check-boxes{
+  float: right;
+}
+
+/* FIXME:  */
+input[type=checkbox]:checked {
+     background: url('../Project1/pics/green-check.png') 0 0px no-repeat;
+ }
