@@ -1,3 +1,4 @@
+
 .top-bar{
   background-color: #2395f0;
   color: white;
@@ -26,6 +27,7 @@
 .announcements{
   margin: auto;
   border: 1px solid lightgray;
+  margin-top: 20px;
 }
 .search-bar{
   float: right;
@@ -50,8 +52,15 @@
   text-align: center;
   display: inline;
 }
-#dashboard-green:hover{
-  content: url:('../Project1/pics/dashboard-blue2.png');
+/* FIXME:  */
+#dashboard-green a{
+  background: url(../Project1/pics/dashboard-green.png);
+}
+#dashboard-green a:hover{
+  background: url:(../Project1/pics/dashboard-blue2.png);
+}
+a.icon-images:hover{
+  background: url:('../Project1/pics/dashboard-blue2.png');
 }
 .icon-images{
   height: 60px;
@@ -93,7 +102,7 @@
   color: #2190e8;
   font-size: 20pt;
   text-align: left;
-  margin-left:40px;
+  padding-left:40px;
 }
 .tasks-gear{
   float: right;
@@ -120,6 +129,12 @@
   float: right;
 }
 .tasks-container{
-  margin: auto;
   border: 1px solid lightgray;
+  margin: auto;
+}
+a.task-link:hover{
+  text-decoration: none;
+}
+.activity{
+  float: right;
 }
