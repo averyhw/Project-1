@@ -40,6 +40,9 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+.search{
+  float: right;
+}
 #navlist{
   position: relative;
   display: inline;
@@ -56,13 +59,15 @@
 #dashboard-green a{
   background: url(../Project1/pics/dashboard-green.png);
 }
+/* FIXME:  */
 #dashboard-green a:hover{
   background: url:(../Project1/pics/dashboard-blue2.png);
 }
-
-a.icon-images:hover{
-  background: url:('../Project1/pics/dashboard-blue2.png');
+/* FIXME:  */
+a:hover{
+  background-image: url:('../Project1/pics/dashboard-blue2.png');
 }
+
 .icon-images{
   height: 60px;
   width: auto;
@@ -121,13 +126,13 @@ a.icon-images:hover{
   margin-right: 30px;
 }
 .task-pic-2{
+  float: right;
   height: 30px;
   width: auto;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  float: right;
 }
 .tasks-container{
   border: 1px solid lightgray;
@@ -150,6 +155,7 @@ a.task-link:hover{
   color: gray;
   font-size: 10pt;
   margin-left: 40px;
+  margin: auto;
 }
 
 .rec-pic-1{
@@ -178,12 +184,11 @@ input[type=checkbox]:checked {
  }
  .circle-charts{
    float: right;
-   margin-top: 20px;
  }
  .pie-chart{
-   height: 100px;
+   height: 70px;
    width: auto;
-   margin-left: 20px;
+   margin-bottom: 10px;
  }
  .did-you-know{
    font-family: 'Open Sans', sans-serif;
@@ -205,7 +210,7 @@ input[type=checkbox]:checked {
  .right-orange-arrow{
    position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
    top: 50px;
-   left: 445px;
+   left: 540px;
    height: 40px;
    width: auto;
  }
@@ -245,6 +250,15 @@ input[type=checkbox]:checked {
    height: 20px;
    width: auto;
  }
+ #facebook-icon{
+   height: 20px;
+   width: auto;
+ }
+ #facebook-icon:hover{
+   content: url('../Project1/pics/facebook-icon.png');
+   height: 20px;
+   width: auto;
+ }
  .centered{
    text-align: center;
    font-family: 'Open Sans', sans-serif;
@@ -266,4 +280,14 @@ input[type=checkbox]:checked {
    margin-top: 20px;
    background-color: #f4f4f4;
    width: 100%;
+ }
+ .footer-link{
+   text-decoration: none;
+   color: black;
+ }
+ .footer-link:hover{
+   text-decoration: none;
+ }
+ .extra{
+   color: #2190e8
  }

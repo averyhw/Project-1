@@ -27,10 +27,10 @@
 <!-- NAV BAR -->
 
     <div class="row">
-      <div class="col-lg-12 col-sm-12 col-xs-12 icon-bar">
-        <nav class="col-lg-8 col-sm-10 col-xs-12 icons">
+      <div class="col-xs-12 col-sm-12 col-lg-12 icon-bar">
+        <nav class="col-xs-8 col-sm-10 col-lg-12 icons">
           <ul id="navlist">
-            <li><a href=#><img class="icon-images" id="dashboard-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a></li> <!--https://css-tricks.com/spriting-img/-->
+            <li><a href=#><img class="icon-images" id="dashboard-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a><img src="../Project1/pics/dashboard-blue.png"></li> <!--https://css-tricks.com/spriting-img/-->
             <li><a href=#><img class="icon-images" id="customers-green" src="../Project1/pics/customers-green.png" alt="icons"></a></li>
             <li><a href=#><img class="icon-images" id="messages-green" src="../Project1/pics/messages-green.png" alt="icons"></a></li>
             <li><a href=#><img class="icon-images" id="promotions-green" src="../Project1/pics/promotions-green.png" alt="icons"></a></li>
@@ -40,26 +40,36 @@
         </nav>
       </div>
     </div><!--/row-->
+  </div><!--/container-fluid-->
 
 <!-- DASHBOARD -->
+  <div class="container">
 
     <div class="row">
-      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
-      <div class="col-lg-10 col-sm-10 col-xs-10 dashboard row">
-        <div class="col-lg-3 col-sm-3 col-xs-3">
-        <p class="dashboard-text">Dashboard</p>
-      </div>
-      <div class="col-lg-6"></div>
-      <div class="col-lg-3 col-sm-5 col-xs-5">
-        <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
-          <input type="text" name="search"><a href=#><img class="search-icon" src="../Project1/pics/search.png"></a>
-        </form>
-      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-12">
+
+      <div class="col-sm-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-lg-10 dashboard row">
+          <div class="col-xs-3 col-sm-3 col-lg-3">
+            <p class="dashboard-text">Dashboard</p>
+          </div>
+          <div class="col-xs-0 col-lg-5"></div>
+          <div class="col-xs-3 col-sm-3 col-lg-4 search">
+            <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
+            <input type="text" name="search"><a href=#><img class="search-icon" src="../Project1/pics/search.png"></a>
+            </form>
+          </div>
+      <div class="col-sm-1 col-lg-1"></div>
+      </div><!--/row-->
+
     </div>
-      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+
     </div><!--/row-->
 
+  </div><!--/container-->
+
 <!-- ANNOUNCEMENTS -->
+<div class="container">
 
     <div class="row">
       <div class="col-lg-10 col-sm-10 col-xs-10 announcements row">
@@ -74,132 +84,135 @@
       </div>
       </div>
     </div><!--/row-->
-    </div> <!--/container-fluid-->
+
+</div><!--/container-->
+
 
 
 <!-- TASKS -->
+<div class="container">
 
-      <div class="container tasks-container">
      <div class="row">
-       <div class="col-lg-4 col-sm-10 col-xs-12 tasks-stuff">
-         <p class="tasks">Tasks <img class="tasks-gear" src="../Project1/pics/gear.png"></p>
-       </div>
-     </div><!--/row-->
-     <a class="task-link" href=#><div class="row">
-       <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-           <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-one.png" alt="task-number">Welcome Contacts<img class="task-pic-2" src="../Project1/pics/blue-person-1.png"></p>
-       </div>
-     </div><!--/row--></a>
-     <a class="task-link" href=#><div class="row">
-       <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-           <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-two.png" alt="task-number">Provide Responses<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
-       </div>
-     </div><!--/row--></a>
-     <a class="task-link" href=#><div class="row">
-       <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-           <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-three.png" alt="task-number">Review Activity<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
-       </div>
-     </div><!--/row--></a>
-     <a class="task-link" href=#><div class="row">
-         <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-           <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-four.png" alt="task-number">Reach Out<img class="task-pic-2" src="../Project1/pics/blue-person-four.png"></p>
-         </div>
-     </div><!--/row--></a>
-   </div> <!--/container-->
+
+       <div class="col-md-4">
+           <p class="tasks">Tasks <img class="tasks-gear" src="../Project1/pics/gear.png"></p>
+           <a class="task-link" href=#>
+             <div class="task-one">
+               <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-one.png" alt="task-number">Welcome Contacts<img class="task-pic-2" src="../Project1/pics/blue-person-1.png"></p>
+             </div></a>
+             <a class="task-link" href=#>
+               <div class="task-one">
+                 <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-two.png" alt="task-number">Provide Responses<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
+               </div></a>
+            <a class="task-link" href=#>
+              <div class="task-one">
+                <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-three.png" alt="task-number">Review Activity<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
+              </div></a>
+            <a class="task-link" href=#>
+              <div class="task-one">
+                <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-four.png" alt="task-number">Reach Out<img class="task-pic-2" src="../Project1/pics/blue-person-four.png"></p>
+              </div></a>
+        </div>
+
+
+   <!-- ANALYTICS -->
+
+             <div class="col-md-6">
+                 <p class="tasks">Analytics</p>
+               <div class="col-md-9">
+                 <p class="activity-text">ACTIVITY<a href=#><img class="date-arrow" src="../Project1/pics/down-arrow.png" alt="arrow"></a><input type="text" class="form-date" value="6/28/11 - 7/21/11"></p><!--input from http://bootstrap-datepicker.readthedocs.io/en/latest/markup.html-->
+               </div>
+               <div class="col-md-12 row">
+                 <div class="col-md-10">
+                   <img class="bar-graph" src="../Project1/pics/data-chart.png" alt="graph">
+                 </div>
+                 <!-- PIE CHARTS -->
+                 <div class="col-md-1 circle-charts">
+                   <p class="activity-text">CHANNELS</p>
+                   <img class="pie-chart" src="../Project1/pics/piechart-1.png" alt="Pie Chart">
+                   <p class="activity-text">REFERRALS</p>
+                   <img class="pie-chart" src="../Project1/pics/piechart-2.png" alt="Pie Chart">
+                 </div>
+               </div>
+
+               <div class="col-md-10 check-boxes">
+                 <input id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook">
+                 <input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter">
+                 <input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare">
+                 <input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
+               </div>
+             </div>
+             
+           </div><!--/row-->
 
 <!-- RECOMMENDATIONS -->
 
-   <div class="container tasks-container">
+
     <div class="row">
-      <div class="col-lg-4 col-sm-10 col-xs-12 tasks-stuff">
+      <div class="col-md-4">
         <p class="tasks">Recommendations</p>
+        <a class="task-link" href=#>
+          <div class="task-one">
+            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">7 Steps to getting more Fans</p>
+          </div></a>
+        <a class="task-link" href=#>
+          <div class="task-one">
+            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">Increase traction with more interactions</p>
+          </div></a>
+        <a class="task-link" href=#>
+          <div class="task-one">
+            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-check.png" alt="rec-pic">Checklist</p><p class="black-text">Creating a Promotion</p>
+          </div></a>
+        <a class="task-link" href=#>
+          <div class="task-one">
+            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-light-bulb.png" alt="rec-pic">Tip</p><p class="black-text">Share More</p>
+          </div></a>
       </div>
     </div><!--/row-->
-    <a class="task-link" href=#><div class="row">
-      <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-          <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article<br/>7 Steps to getting more Fans</p>
-      </div>
-    </div><!--/row--></a>
-    <a class="task-link" href=#><div class="row">
-      <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-          <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article<br/>Increase traction with more interactions</p>
-      </div>
-    </div><!--/row--></a>
-    <a class="task-link" href=#><div class="row">
-      <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-          <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-check.png" alt="rec-pic">Checklist<br/>Creating a Promotion</p>
-      </div>
-    </div><!--/row--></a>
-    <a class="task-link" href=#><div class="row">
-      <div class="col-lg-4 col-sm-10 col-xs-12 task-one">
-          <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-light-bulb.png" alt="rec-pic">Tip<br/>Share More</p>
-      </div>
-    </div><!--/row--></a>
-  </div> <!--/container-->
 
-  <!-- ANALYTICS -->
-
-        <div class="container activities">
-          <div class="row">
-            <div class="col-lg-5 col-sm-10 col-xs-10">
-              <p class="tasks">Analytics</p><p class="activity-text">ACTIVITY<a href=#><img class="date-arrow" src="../Project1/pics/down-arrow.png" alt="arrow"></a><input type="text" class="form-date" value="6/28/11 - 7/21/11"></p><!--input from http://bootstrap-datepicker.readthedocs.io/en/latest/markup.html-->
-              <img class="bar-graph" src="../Project1/pics/data-chart.png" alt="graph">
-            </div>
-            <!-- PIE CHARTS -->
-            <div class="col-lg-1 col-sm-6 col-xs-6 circle-charts">
-              <p class="activity-text">CHANNELS</p>
-              <img class="pie-chart" src="../Project1/pics/piechart-1.png" alt="Pie Chart">
-              <p class="activity-text">REFERRALS</p>
-              <img class="pie-chart" src="../Project1/pics/piechart-2.png" alt="Pie Chart">
-            </div>
-          </div><!--/row-->
-          <div class="row">
-            <div class="col-lg-5 col-sm-10 col-xs-12 check-boxes">
-              <input id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook">
-              <input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter">
-              <input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare">
-              <input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
-            </div>
-          </div><!--/row-->
-        </div><!--/container-->
 
 <!-- DID YOU KNOW -->
-      <div class="container">
+
         <div class="row">
-          <div class="col-lg-5 col-sm-10 col-xs-12">
+          <div class="col-md-6">
             <p class="did-you-know">DID YOU KNOW?<br/>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
             <a href=#><img class="left-orange-arrow" src="../Project1/pics/left-half-circle.png" alt="arrow"></a>
             <a href=#><img class="right-orange-arrow" src="../Project1/pics/right-half-circle.png" alt="arrow"></a>
           </div>
         </div><!--/row-->
-      </div><!--/container-->
+
 
 <!-- ADS -->
-    <div class=container>
+
       <div class="row">
-        <div class="col-lg-10 col-sm-10 col-xs-12 ads">
-          <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/watch-what-you-say-ad.png" alt="ad">
-          <img class="col-lg-3 col-sm-3 col-xs-3 ad1" src="../Project1/pics/see-how-others-ad.png" alt="ad">
-          <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/version-2-0-ad.png" alt="ad">
+        <div class="col-lg-10 col-sm-10 col-xs-12">
+          <div class="ads">
+            <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/watch-what-you-say-ad.png" alt="ad">
+            <img class="col-lg-3 col-sm-3 col-xs-3 ad1" src="../Project1/pics/see-how-others-ad.png" alt="ad">
+            <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/version-2-0-ad.png" alt="ad">
+          </div>
         </div>
       </div><!--/row-->
-    </div><!--/container-->
+
+</div><!--/container-->
+
+
 
 <!-- FOOTER -->
   <footer>
     <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 col-sm-12 col-xs-12">
+      <div class="col-md-12">
         <table>
           <tr class="table-row">
-            <td><p class="centered"><a href=#>Tutorials</a> | <a href=#>Support</a> | <a href=#>Blog</a></p></td>
-            <td><p class="centered and"><a href=#>Ariel Winter</a> likes your <a href=#>Win A Cooper Sweepstakes</a> Promotion<a href=#><img class="up-blue-arrow" src="../Project1/pics/up-blue-arrow.png" alt="up arrow"></a></p></td>
-            <td><p class="centered"><img class="dog" src="../Project1/pics/dog.png" alt="dog"><a href=#>Logout</a></p></td>
+            <td><p class="centered"><a class="footer-link" href=#>Tutorials</a> | <a class="footer-link" href=#>Support</a> | <a class="footer-link" href=#>Blog</a></p></td>
+            <td><p class="centered and"><a class="footer-link extra" href=#><strong>Ariel Winter</strong></a> likes your <a class="footer-link extra" href=#><strong>Win A Cooper Sweepstakes</strong></a> Promotion<a href=#><img class="up-blue-arrow" src="../Project1/pics/up-blue-arrow.png" alt="up arrow"></a></p></td>
+            <td><p class="centered"><img class="dog" src="../Project1/pics/dog.png" alt="dog"><a class="footer-link extra" href=#><strong>Logout</strong></a></p></td>
             <td><p class="centered">
-              <a href=#><img class="gray" src="../Project1/pics/gray-facebook.png" alt="icon"></a>
-              <a href=#><img class="gray" src="../Project1/pics/gray-twitter.png" alt="icon"></a>
-              <a href=#><img class="gray" src="../Project1/pics/gray-foursquare.png" alt="icon"></a>
-              <a href=#><img class="gray" src="../Project1/pics/gray-youtube.png" alt="icon"></a>
+              <a href=#><img id="facebook-icon" class="gray" src="../Project1/pics/gray-facebook.png" alt="icon"></a>
+              <a href=#><img id="twitter-icon" class="gray" src="../Project1/pics/gray-twitter.png" alt="icon"></a>
+              <a href=#><img id="foursquare-icon" class="gray" src="../Project1/pics/gray-foursquare.png" alt="icon"></a>
+              <a href=#><img id="youtube-icon" class="gray" src="../Project1/pics/gray-youtube.png" alt="icon"></a>
             </p></td>
             <td></td>
           </tr>
