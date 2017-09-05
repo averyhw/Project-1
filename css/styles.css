@@ -151,6 +151,7 @@ a.task-link:hover{
   font-size: 10pt;
   margin-left: 40px;
 }
+
 .rec-pic-1{
   height: 30px;
   width: auto;
@@ -168,10 +169,101 @@ a.task-link:hover{
   width: auto;
 }
 .check-boxes{
-  float: right;
+  float: left;
 }
 
 /* FIXME:  */
 input[type=checkbox]:checked {
      background: url('../Project1/pics/green-check.png') 0 0px no-repeat;
+ }
+ .circle-charts{
+   float: right;
+   margin-top: 20px;
+ }
+ .pie-chart{
+   height: 100px;
+   width: auto;
+   margin-left: 20px;
+ }
+ .did-you-know{
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   font-size: 10pt;
+   border: 1px solid #2190e8;
+   border-radius: 5px;
+   background-color: #2190e8;
+   padding: 35px;
+   position: relative;
+ }
+ .left-orange-arrow{
+   position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
+   top: 50px;
+   left: 10px;
+   height: 40px;
+   width: auto;
+ }
+ .right-orange-arrow{
+   position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
+   top: 50px;
+   left: 445px;
+   height: 40px;
+   width: auto;
+ }
+ .ads{
+   background-color: #2190e8;
+   text-align: center;
+ }
+ .ad{
+   border-radius: 5px;
+   margin: 10px;
+   width: 100%;
+   height: auto;
+ }
+ .ad1{
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin-top: 5px;
+   width: 100%;
+   height: auto;
+ }
+ .up-blue-arrow{
+   height: 15px;
+   width: auto;
+   float: right;
+   margin-top: 5px;
+ }
+ .dog{
+   height: 25px;
+   width: auto;
+   border: 1px solid white;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ .gray{
+   height: 20px;
+   width: auto;
+ }
+ .centered{
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: black;
+   font-size: 11pt;
+ }
+ .and{
+   text-align: left;
+ }
+ .table-row td{
+   border: 1px solid #dddddd;
+   border-collapse: collapse;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ table{
+   margin-top: 20px;
+   background-color: #f4f4f4;
+   width: 100%;
  }
