@@ -1,0 +1,263 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-analytics-blue {
+    width: 58px;
+    height: 66px;
+    background-position: -5px -5px;
+}
+
+.sprite-analytics-green {
+    width: 58px;
+    height: 66px;
+    background-position: -73px -5px;
+}
+
+.sprite-blue-man {
+    width: 315px;
+    height: 264px;
+    background-position: -141px -5px;
+}
+
+.sprite-dashboard-blue {
+    width: 59px;
+    height: 73px;
+    background-position: -466px -5px;
+}
+
+.sprite-dashboard-green {
+    width: 59px;
+    height: 73px;
+    background-position: -535px -5px;
+}
+
+.sprite-diagonal-bg {
+    width: 84px;
+    height: 77px;
+    background-position: -604px -5px;
+}
+
+.sprite-down-arrow {
+    width: 315px;
+    height: 264px;
+    background-position: -698px -5px;
+}
+
+.sprite-facebook-icon {
+    width: 512px;
+    height: 512px;
+    background-position: -1023px -5px;
+}
+
+.sprite-foursquare-icon {
+    width: 256px;
+    height: 256px;
+    background-position: -1545px -5px;
+}
+
+.sprite-gear {
+    width: 315px;
+    height: 264px;
+    background-position: -1811px -5px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -279px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -279px;
+}
+
+.sprite-gray-facebook {
+    width: 512px;
+    height: 512px;
+    background-position: -85px -279px;
+}
+
+.sprite-gray-foursquare {
+    width: 256px;
+    height: 256px;
+    background-position: -607px -279px;
+}
+
+.sprite-gray-twitter {
+    width: 1067px;
+    height: 1067px;
+    background-position: -873px -527px;
+}
+
+.sprite-gray-youtube {
+    width: 256px;
+    height: 256px;
+    background-position: -5px -1604px;
+}
+
+.sprite-green-check {
+    width: 315px;
+    height: 264px;
+    background-position: -271px -1604px;
+}
+
+.sprite-green-four {
+    width: 315px;
+    height: 264px;
+    background-position: -596px -1604px;
+}
+
+.sprite-green-light-bulb {
+    width: 315px;
+    height: 264px;
+    background-position: -921px -1604px;
+}
+
+.sprite-green-one {
+    width: 315px;
+    height: 264px;
+    background-position: -1246px -1604px;
+}
+
+.sprite-green-page {
+    width: 315px;
+    height: 264px;
+    background-position: -1571px -1604px;
+}
+
+.sprite-green-three {
+    width: 315px;
+    height: 264px;
+    background-position: -2136px -5px;
+}
+
+.sprite-green-two {
+    width: 315px;
+    height: 264px;
+    background-position: -1950px -279px;
+}
+
+.sprite-left-half-circle {
+    width: 125px;
+    height: 263px;
+    background-position: -2275px -279px;
+}
+
+.sprite-left-orange-arrow {
+    width: 315px;
+    height: 264px;
+    background-position: -1950px -553px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -873px -279px;
+}
+
+.sprite-messages-blue {
+    width: 58px;
+    height: 65px;
+    background-position: -913px -279px;
+}
+
+.sprite-messages-green {
+    width: 58px;
+    height: 65px;
+    background-position: -1545px -279px;
+}
+
+.sprite-page-creator {
+    width: 45px;
+    height: 50px;
+    background-position: -1613px -279px;
+}
+
+.sprite-promotions-blue {
+    width: 58px;
+    height: 69px;
+    background-position: -1668px -279px;
+}
+
+.sprite-promotions-green {
+    width: 58px;
+    height: 69px;
+    background-position: -1736px -279px;
+}
+
+.sprite-right-half-circle {
+    width: 125px;
+    height: 263px;
+    background-position: -607px -552px;
+}
+
+.sprite-right-orange-arrow {
+    width: 315px;
+    height: 264px;
+    background-position: -5px -827px;
+}
+
+.sprite-search {
+    width: 23px;
+    height: 22px;
+    background-position: -981px -279px;
+}
+
+.sprite-see-how-others-ad {
+    width: 284px;
+    height: 174px;
+    background-position: -330px -827px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -1804px -279px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -1844px -279px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -1884px -279px;
+}
+
+.sprite-twitter-icon {
+    width: 1067px;
+    height: 1067px;
+    background-position: -2461px -5px;
+}
+
+.sprite-up-blue-arrow {
+    width: 315px;
+    height: 264px;
+    background-position: -330px -1082px;
+}
+
+.sprite-version-2-0-ad {
+    width: 284px;
+    height: 164px;
+    background-position: -1950px -1082px;
+}
+
+.sprite-watch-what-you-say-ad {
+    width: 284px;
+    height: 164px;
+    background-position: -2244px -1082px;
+}
+
+.sprite-youtube-icon {
+    width: 256px;
+    height: 256px;
+    background-position: -2538px -1082px;
+}

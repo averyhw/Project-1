@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="sprites/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!--https://fonts.google.com/?category=Sans+Serif&selection.family=Open+Sans-->
 
   </head>
@@ -97,90 +98,115 @@
        <div class="col-md-4">
            <p class="tasks">Tasks <img class="tasks-gear" src="../Project1/pics/gear.png"></p>
            <a class="task-link" href=#>
-             <div class="task-one">
+             <div class="task-one col-md-12">
                <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-one.png" alt="task-number">Welcome Contacts<img class="task-pic-2" src="../Project1/pics/blue-person-1.png"></p>
              </div></a>
              <a class="task-link" href=#>
-               <div class="task-one">
+               <div class="task-one col-md-12">
                  <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-two.png" alt="task-number">Provide Responses<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
                </div></a>
             <a class="task-link" href=#>
-              <div class="task-one">
+              <div class="task-one col-md-12">
                 <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-three.png" alt="task-number">Review Activity<img class="task-pic-2" src="../Project1/pics/blue-person-2.png"></p>
               </div></a>
             <a class="task-link" href=#>
-              <div class="task-one">
+              <div class="task-one col-md-12">
                 <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-four.png" alt="task-number">Reach Out<img class="task-pic-2" src="../Project1/pics/blue-person-four.png"></p>
               </div></a>
-        </div>
 
+        <!-- RECOMMENDATIONS -->
+
+
+
+              <div class="recommendations">
+                <p class="tasks">Recommendations</p>
+                <a class="task-link" href=#>
+                  <div class="task-one borderz col-md-12">
+                    <p class="tiny-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">7 Steps to getting more Fans</p>
+                  </div></a>
+                <a class="task-link" href=#>
+                  <div class="task-one borderz col-md-12">
+                    <p class="tiny-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">Increase traction with more interactions</p>
+                  </div></a>
+                <a class="task-link" href=#>
+                  <div class="task-one borderz col-md-12">
+                    <p class="tiny-text"><img class="rec-pic-1" src="../Project1/pics/green-check.png" alt="rec-pic">Checklist</p><p class="black-text">Creating a Promotion</p>
+                  </div></a>
+                <a class="task-link" href=#>
+                  <div class="task-one borderz col-md-12">
+                    <p class="tiny-text"><img class="rec-pic-1" src="../Project1/pics/green-light-bulb.png" alt="rec-pic">Tip</p><p class="black-text">Share More</p>
+                  </div></a>
+              </div>
+
+            </div>
 
    <!-- ANALYTICS -->
 
-             <div class="col-md-6">
+             <div class="col-md-8">
                  <p class="tasks">Analytics</p>
-               <div class="col-md-9">
-                 <p class="activity-text">ACTIVITY<a href=#><img class="date-arrow" src="../Project1/pics/down-arrow.png" alt="arrow"></a><input type="text" class="form-date" value="6/28/11 - 7/21/11"></p><!--input from http://bootstrap-datepicker.readthedocs.io/en/latest/markup.html-->
-               </div>
-               <div class="col-md-12 row">
-                 <div class="col-md-10">
-                   <img class="bar-graph" src="../Project1/pics/data-chart.png" alt="graph">
+                 <div class="col-md-9">
+                   <p class="activity-text">ACTIVITY
+                    <form>
+                     <input type="date" class="form-date" ><!--input from http://bootstrap-datepicker.readthedocs.io/en/latest/markup.html-->
+                   </form></p>
                  </div>
-                 <!-- PIE CHARTS -->
-                 <div class="col-md-1 circle-charts">
-                   <p class="activity-text">CHANNELS</p>
-                   <img class="pie-chart" src="../Project1/pics/piechart-1.png" alt="Pie Chart">
-                   <p class="activity-text">REFERRALS</p>
-                   <img class="pie-chart" src="../Project1/pics/piechart-2.png" alt="Pie Chart">
-                 </div>
-               </div>
+                 <div class="col-md-12 row">
+                   <div class="col-md-10">
+                     <img class="bar-graph" src="../Project1/pics/data-chart.png" alt="graph">
+                   </div>
 
-               <div class="col-md-10 check-boxes">
-                 <input id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook">
-                 <input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter">
-                 <input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare">
-                 <input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
-               </div>
+                   <!-- PIE CHARTS -->
+                   <div class="col-md-1 circle-charts">
+                     <p class="activity-text">CHANNELS</p>
+                     <img class="pie-chart" src="../Project1/pics/piechart-1.png" alt="Pie Chart">
+                     <p class="activity-text">REFERRALS</p>
+                     <img class="pie-chart" src="../Project1/pics/piechart-2.png" alt="Pie Chart">
+                   </div>
+                 </div>
+
+                 <div class="col-md-10 check-boxes">
+                   <input id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook">
+                   <input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter">
+                   <input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare">
+                   <input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
+                 </div>
              </div>
-             
-           </div><!--/row-->
-
-<!-- RECOMMENDATIONS -->
 
 
-    <div class="row">
-      <div class="col-md-4">
-        <p class="tasks">Recommendations</p>
-        <a class="task-link" href=#>
-          <div class="task-one">
-            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">7 Steps to getting more Fans</p>
-          </div></a>
-        <a class="task-link" href=#>
-          <div class="task-one">
-            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-page.png" alt="rec-pic">Article</p><p class="black-text">Increase traction with more interactions</p>
-          </div></a>
-        <a class="task-link" href=#>
-          <div class="task-one">
-            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-check.png" alt="rec-pic">Checklist</p><p class="black-text">Creating a Promotion</p>
-          </div></a>
-        <a class="task-link" href=#>
-          <div class="task-one">
-            <p class="black-text"><img class="rec-pic-1" src="../Project1/pics/green-light-bulb.png" alt="rec-pic">Tip</p><p class="black-text">Share More</p>
-          </div></a>
+
+<!-- CUSTOMERS -->
+
+      <div class="col-md-8">
+        <div>
+        </div>
+        <div>
+        </div>
       </div>
+
+
+
+
     </div><!--/row-->
 
 
 <!-- DID YOU KNOW -->
 
-        <div class="row">
-          <div class="col-md-6">
+
+<div class="col-md-8 col-md-offset-4 did_you_know_border">
+
+        <div class="did_you_know">
+
+          <div class="row">
             <p class="did-you-know">DID YOU KNOW?<br/>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
             <a href=#><img class="left-orange-arrow" src="../Project1/pics/left-half-circle.png" alt="arrow"></a>
             <a href=#><img class="right-orange-arrow" src="../Project1/pics/right-half-circle.png" alt="arrow"></a>
           </div>
-        </div><!--/row-->
+        </div>
+      </div>
 
+
+
+ </div><!--/row-->
 
 <!-- ADS -->
 
