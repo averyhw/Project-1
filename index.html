@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="sprites/styles.css">
+    <link rel="stylesheet" href="css/sprites.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!--https://fonts.google.com/?category=Sans+Serif&selection.family=Open+Sans-->
 
   </head>
@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-xs-12 top-bar">
         <p class="dashboard-text1">
-          MINI of Raleigh <a href=#><img class="gear" src="../Project1/pics/question.png"></a><a href=#><img class="gear" src="../Project1/pics/gear-white.png"></a>
+          MINI of Raleigh <a href=#><i class="sprite sprite-question"></i></a><a href=#><i class="sprite sprite-white-gear"></i></a>
         </p>
       </div>
     </div> <!--/row-->
@@ -28,17 +28,17 @@
 <!-- NAV BAR -->
 
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-lg-12 icon-bar">
-        <nav class="col-xs-8 col-sm-10 col-lg-12 icons">
-          <ul id="navlist">
-            <li><a href=#><img class="icon-images" id="dashboard-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a><img src="../Project1/pics/dashboard-blue.png"></li> <!--https://css-tricks.com/spriting-img/-->
-            <li><a href=#><img class="icon-images" id="customers-green" src="../Project1/pics/customers-green.png" alt="icons"></a></li>
-            <li><a href=#><img class="icon-images" id="messages-green" src="../Project1/pics/messages-green.png" alt="icons"></a></li>
-            <li><a href=#><img class="icon-images" id="promotions-green" src="../Project1/pics/promotions-green.png" alt="icons"></a></li>
-            <li><a href=#><img class="icon-images" id="list-green" src="../Project1/pics/dashboard-green.png" alt="icons"></a></li>
-            <li><a href=#><img class="icon-images" id="analytics-green" src="../Project1/pics/analytics-green.png" alt="icons"></a></li>
+      <div class="col-md-12 icon-bar">
+        <nav class="col-md-10 icons">
+          <ul class="nav-bar">
+            <li><a href=#><i class="icons sprite sprite-analytics-green"></i></a></li>
+            <li><a href=#><i class="icons sprite sprite-green-paper"></i></a></li>
+            <li><a href=#><i class="icons sprite sprite-promotions-green"></i></a></li>
+            <li><a href=#><i class="icons sprite sprite-messages-green"></i></a></li>
+            <li><a href=#><i class="icons sprite sprite-customers-green"></i></a></li>
+            <li><a href=#><i class="icons sprite sprite-dashboard-green"></i></a></li><!--https://css-tricks.com/spriting-img/-->
           </ul>
-        </nav>
+          </nav>
       </div>
     </div><!--/row-->
   </div><!--/container-fluid-->
@@ -47,59 +47,56 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-lg-12">
 
-      <div class="col-sm-1 col-lg-1"></div>
-        <div class="col-xs-10 col-sm-10 col-lg-10 dashboard row">
+        <div class="col-md-12 dashboard row">
+
           <div class="col-xs-3 col-sm-3 col-lg-3">
             <p class="dashboard-text">Dashboard</p>
           </div>
-          <div class="col-xs-0 col-lg-5"></div>
-          <div class="col-xs-3 col-sm-3 col-lg-4 search">
+          <div class="col-md-5"></div>
+          <div class="col-md-4 search">
             <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
-            <input type="text" name="search"><a href=#><img class="search-icon" src="../Project1/pics/search.png"></a>
+            <input type="text" name="search"><a href=#><i class="sprite sprite-search"></i></a>
             </form>
           </div>
-      <div class="col-sm-1 col-lg-1"></div>
-      </div><!--/row-->
 
-    </div>
+      </div><!--/row-->
 
     </div><!--/row-->
 
   </div><!--/container-->
 
 <!-- ANNOUNCEMENTS -->
-<div class="container">
+    <div class="container">
 
-    <div class="row">
-      <div class="col-lg-10 col-sm-10 col-xs-10 announcements row">
-        <div class="col-lg-2 col-sm-2 col-xs-2">
-        <p class="announcements-text">ANNOUNCEMENTS</p>
-      </div>
-      <div class="col-lg-9 col-sm-5 col-xs-5">
-        <p class="black-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
-      </div>
-      <div class="col-lg-1 col-sm-2 col-xs-2">
-        <p><img class="orange-arrow" src="../Project1/pics/left-orange-arrow.png"><img class="orange-arrow" src="../Project1/pics/right-orange-arrow.png"></p>
-      </div>
-      </div>
-    </div><!--/row-->
+        <div class="row announcements">
 
-</div><!--/container-->
+            <div class="col-md-2 right-border">
+              <p class="announcements-text announce-content">ANNOUNCEMENTS</p>
+            </div>
+            <div class="col-md-9 right-border announce-content">
+              <p class="announce-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+            </div>
+            <div class="col-md-1 announce-content">
+              <p><a href=#><i class="sprite sprite-left-orange-arrow"></i></a><a href=#><i class="sprite sprite-right-orange-arrow"></i></a></p>
+            </div>
+
+        </div><!--/row-->
+
+    </div><!--/container-->
 
 
 
 <!-- TASKS -->
 <div class="container">
 
-     <div class="row">
+     <div class="row border-without-top">
 
        <div class="col-md-4">
-           <p class="tasks">Tasks <img class="tasks-gear" src="../Project1/pics/gear.png"></p>
+           <p class="tasks">Tasks <i class="sprite sprite-gray-gear"></i></p>
            <a class="task-link" href=#>
              <div class="task-one col-md-12">
-               <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-one.png" alt="task-number">Welcome Contacts<img class="task-pic-2" src="../Project1/pics/blue-person-1.png"></p>
+               <p class="black-text"><img class="task-pic-1" src="../Project1/pics/green-one.png" alt="task-number">Welcome Contacts</p><div class="blue-man-square"><i class="sprite sprite-blue-man"></i>32</div>
              </div></a>
              <a class="task-link" href=#>
                <div class="task-one col-md-12">
@@ -176,8 +173,9 @@
 
 <!-- CUSTOMERS -->
 
-      <div class="col-md-8">
+      <div class="col-md-8 col-md-offset-4">
         <div>
+          <img class="line-graph" src="../Project1/pics/green-graph.png">
         </div>
         <div>
         </div>

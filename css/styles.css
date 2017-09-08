@@ -3,31 +3,45 @@
   background-color: #2395f0;
   color: white;
 }
-.gear{
-  height: 10px;
-  width:auto;
-  margin-left: 5px;
-  margin-right: 5px;
-}
 .icon-bar{
   background-color: #164872;
 }
 .icons{
   margin: auto;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 .dashboard{
   background-color: #33cc66;
   margin: auto;
   margin-top: 10px;
-
+}
+.nav-bar{
+  list-style-type: none;
+  display: inline-block;
+}
+.nav-bar li{
+  display: inline;
+  float: right; /* idea to float from https://stackoverflow.com/questions/885691/how-to-make-a-ul-display-in-a-horizontal-row */
 }
 .announcements{
   margin: auto;
   border: 1px solid lightgray;
   margin-top: 20px;
+}
+.announce-content{
+  text-align: center;
+}
+.announce-text{
+  font-size: 11pt;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}
+.left-border{
+  border-left: 1px solid lightgray;
+}
+.right-border{
+  border-right: 1px solid lightgray;
 }
 .search-bar{
   float: right;
@@ -82,11 +96,9 @@ a:hover{
 .dashboard-text1{
   font-family: 'Open Sans', sans-serif;
   color: white;
-  font-size: 10pt;
-  vertical-align: middle;
+  font-size: 12pt;
   float: right;
   margin-right: 30px;
-  margin-top: 15px;
 }
 .announcements-text{
   font-family: 'Open Sans', sans-serif;
@@ -102,6 +114,17 @@ a:hover{
   height: 20px;
   width: auto;
   text-align: center;
+}
+.border-without-top{
+  border: 1px solid lightgray;
+  border-top: 0px;
+}
+
+.blue-man-square{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  float: right;
+  display: inline-block;
 }
 .tasks{
   font-family: 'Open Sans', sans-serif;
@@ -234,6 +257,10 @@ input[type=checkbox]:checked {
    left: 540px;
    height: 40px;
    width: auto;
+ }
+ .line-graph{
+   width: 300px;
+   height: auto;
  }
  .ads{
    background-color: #2190e8;
