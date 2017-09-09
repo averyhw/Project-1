@@ -9,7 +9,9 @@
 .icons{
   margin: auto;
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px
 }
 .dashboard{
   background-color: #33cc66;
@@ -168,32 +170,47 @@
 
 /* END OF TASK SECTION CSS */
 
-.form-date{
-  float: right;
-  border: 1px solid lightgray;
-}
-.form-date::-webkit-calendar-picker-indicator{ /*psuedo class info from https://stackoverflow.com/questions/14946091/are-there-any-style-options-for-the-html5-date-picker */
-  color: orange;
-}
-.form-date::-webkit-datetime-edit{
-  font-family: 'Open Sans', sans-serif;
-  border-right: 1px solid lightgray;
-}
-.form-date::-webkit-inner-spin-button {
-  display: none;
-}
-.date-arrow{
-  height: 20px;
-  width: auto;
-  margin-top: 5px;
-  float: right;
-}
+/* ACTIVITY SECTION CSS */
+
 .activity-text{
   font-family: 'Open Sans', sans-serif;
   color: gray;
   font-size: 10pt;
   margin-left: 40px;
+  float: left;
 }
+.bar-graph{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.circle-charts{
+  float: right;
+  border-left: 1px solid lightgray;
+}
+.pie-chart{
+  height: 100px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.pie-text{
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 10pt;
+}
+.check-boxes{
+  float: right;
+}
+.social-media{
+  margin-left: 5px;
+  height: 50px;
+  width: auto;
+}
+.checks::selection{
+  background-image: url('../Project1/pics/empty-check-box.png');
+}
+
+/* END OF ACTIVITY SECTION CSS*/
 
 /* RECOMMENDATIONS SECTION CSS */
 
@@ -212,45 +229,22 @@
 .rec-text{
   font-family: 'Open Sans', sans-serif;
   font-size: 11pt;
-  color: black;
+  color: gray;
 }
 .borderz{
   border-bottom: 0.5px dotted lightgray;
 }
 .rec-link:hover .rec-text{
-  color: gray;
+  color: black;
 }
 
 /* END OF RECoMMENDATIONS SECTION CSS */
 
 
 
-
-.bar-graph{
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.social-media{
-  margin-left: 5px;
-  height: 50px;
-  width: auto;
-}
-.check-boxes{
-  float: left;
-}
-
 /* FIXME:  */
 input[type=checkbox]:checked {
      background: url('../Project1/pics/green-check.png') 0 0px no-repeat;
- }
- .circle-charts{
-   float: right;
- }
- .pie-chart{
-   height: 100px;
-   width: auto;
-   margin-bottom: 10px;
  }
  .did-you-know{
    font-family: 'Open Sans', sans-serif;
