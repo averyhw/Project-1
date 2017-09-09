@@ -13,6 +13,7 @@
 }
 .dashboard{
   background-color: #33cc66;
+  border-radius: 5px;
   margin: auto;
   margin-top: 10px;
 }
@@ -48,15 +49,6 @@
   margin-top: 15px;
   background-color: white;
 }
-.search-icon{
-  float: right;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.search{
-  float: right;
-}
 #navlist{
   position: relative;
   display: inline;
@@ -68,18 +60,6 @@
   list-style: none;
   text-align: center;
   display: inline;
-}
-/* FIXME:  */
-#dashboard-green a{
-  background: url(../Project1/pics/dashboard-green.png);
-}
-/* FIXME:  */
-#dashboard-green a:hover{
-  background: url:(../Project1/pics/dashboard-blue2.png);
-}
-/* FIXME:  */
-a:hover{
-  background-image: url:('../Project1/pics/dashboard-blue2.png');
 }
 
 .icon-images{
@@ -120,18 +100,22 @@ a:hover{
   border-top: 0px;
 }
 
-.blue-man-square{
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  float: right;
-  display: inline-block;
-}
+/* TASK SECTION CSS */
+
 .tasks{
   font-family: 'Open Sans', sans-serif;
   color: #2190e8;
   font-size: 20pt;
   text-align: left;
   padding-left:40px;
+}
+.task-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  color: black;
+}
+.task-text:hover{
+  color: gray;
 }
 .tasks-gear{
   float: right;
@@ -141,34 +125,52 @@ a:hover{
 }
 .task-one{
   float: left;
-  margin-left: 40px;
   border-bottom: 0.5px solid lightgray;
   padding-top: 10px;
 }
 .borderz{
   border-bottom: 0.5px dotted lightgray;
 }
-.task-pic-1{
-  height: 20px;
-  width: auto;
-  margin-right: 30px;
-}
-.task-pic-2{
-  float: right;
-  height: 30px;
-  width: auto;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.tasks-container{
-  border: 1px solid lightgray;
-  margin: auto;
-}
-a.task-link:hover{
+.task-link:hover{
   text-decoration: none;
 }
+.task-link:hover .sprite-blue-man-32{
+  background-image: url('../pics/sprites.png');/*Help on sprite hover from Madison Walls */
+  background-position: -1764px -537px;
+}
+.task-link:hover .task-text{
+  color: gray;
+}
+.task-link:hover .sprite-green-1{
+  background-image: url('../pics/sprites.png');
+  background-position: -1992px -5px;
+}
+.task-link:hover .sprite-blue-man-36{
+  background-image: url('../pics/sprites.png');
+  background-position: -1829px -537px;
+}
+.task-link:hover .sprite-green-2{
+  background-image: url('../pics/sprites.png');
+  background-position: -1992px -35px;
+}
+.task-link:hover .sprite-green-3{
+  background-image: url('../pics/sprites.png');
+  background-position: -141px -65px;
+}
+.task-link:hover .sprite-green-4{
+  background-image: url('../pics/sprites.png');
+  background-position: -171px -65px;
+}
+.task-link:hover .sprite-blue-man-3{
+  background-image: url('../pics/sprites.png');
+  background-position: -1699px -537px;
+}
+.task-stuff{
+  display: inline-block;
+}
+
+/* END OF TASK SECTION CSS */
+
 .form-date{
   float: right;
   border: 1px solid lightgray;

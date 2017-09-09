@@ -27,165 +27,256 @@
     display: inline-block;
 }
 
+.sprite-blue-man-3 {
+    width: 55px;
+    height: 29px;
+    background-position: -175px -5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.sprite-blue-man-32 {
+    width: 55px;
+    height: 29px;
+    background-position: -240px -5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.sprite-blue-man-36 {
+    width: 55px;
+    height: 29px;
+    background-position: -305px -5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
 .sprite-blue-paper {
     width: 58px;
     height: 66px;
-    background-position: -175px -5px;
+    background-position: -370px -5px;
 }
 
 .sprite-customers-blue {
     width: 58px;
     height: 66px;
-    background-position: -243px -5px;
+    background-position: -438px -5px;
 }
 
 .sprite-customers-green {
     width: 62px;
     height: 64px;
-    background-position: -311px -5px;
+    background-position: -506px -5px;
 }
 .sprite-customers-green:hover{
-  background-position: -243px -5px;
+  background-position: -438px -5px;
 }
 
 .sprite-dashboard-blue {
     width: 59px;
     height: 73px;
-    background-position: -383px -5px;
+    background-position: -578px -5px;
 }
 
 .sprite-dashboard-green {
     width: 59px;
     height: 73px;
-    background-position: -452px -5px;
+    background-position: -647px -5px;
 }
 .sprite-dashboard-green:hover{
-  background-position: -383px -5px;
+  background-position: -578px -5px;
 }
 
 .sprite-diagonal-bg {
     width: 84px;
     height: 77px;
-    background-position: -521px -5px;
+    background-position: -716px -5px;
 }
 
 .sprite-dog {
     width: 256px;
     height: 256px;
-    background-position: -615px -5px;
+    background-position: -810px -5px;
 }
 
 .sprite-down-arrow {
     width: 315px;
     height: 264px;
-    background-position: -881px -5px;
+    background-position: -1076px -5px;
 }
 
 .sprite-facebook {
     width: 315px;
     height: 264px;
-    background-position: -1206px -5px;
+    background-position: -1401px -5px;
 }
 
 .sprite-facebook-icon {
     width: 512px;
     height: 512px;
-    background-position: -1531px -5px;
+    background-position: -5px -279px;
 }
 
 .sprite-foursquare {
     width: 315px;
     height: 264px;
-    background-position: -5px -527px;
+    background-position: -527px -279px;
 }
 
 .sprite-foursquare-icon {
     width: 256px;
     height: 256px;
-    background-position: -330px -527px;
+    background-position: -1726px -5px;
 }
 
 .sprite-google {
     width: 315px;
     height: 264px;
-    background-position: -596px -527px;
+    background-position: -852px -279px;
+}
+
+.sprite-gray-1 {
+    width: 20px;
+    height: 20px;
+    background-position: -1992px -5px;
+}
+
+.sprite-gray-2 {
+    width: 20px;
+    height: 20px;
+    background-position: -1992px -35px;
+}
+
+.sprite-gray-3 {
+    width: 20px;
+    height: 20px;
+    background-position: -141px -65px;
+}
+
+.sprite-gray-4 {
+    width: 20px;
+    height: 20px;
+    background-position: -171px -65px;
 }
 
 .sprite-gray-facebook {
     width: 512px;
     height: 512px;
-    background-position: -921px -527px;
+    background-position: -1177px -279px;
 }
 
 .sprite-gray-foursquare {
     width: 256px;
     height: 256px;
-    background-position: -1443px -527px;
+    background-position: -1726px -271px;
 }
 
 .sprite-gray-gear {
     width: 30px;
     height: 30px;
-    background-position: -1709px -527px;
+    background-position: -201px -65px;
     float: right;
     margin-top: 5px;
+}
+
+.sprite-gray-man-3 {
+    width: 55px;
+    height: 29px;
+    background-position: -1699px -537px;
+}
+
+.sprite-gray-man-32 {
+    width: 55px;
+    height: 29px;
+    background-position: -1764px -537px;
+}
+
+.sprite-gray-man-36 {
+    width: 55px;
+    height: 29px;
+    background-position: -1829px -537px;
 }
 
 .sprite-gray-twitter {
     width: 1067px;
     height: 1067px;
-    background-position: -2053px -5px;
+    background-position: -5px -801px;
 }
 
 .sprite-gray-youtube {
     width: 256px;
     height: 256px;
-    background-position: -5px -1082px;
+    background-position: -1699px -576px;
+}
+
+.sprite-green-1 {
+    width: 20px;
+    height: 20px;
+    background-position: -241px -65px;
+}
+
+.sprite-green-2 {
+    width: 20px;
+    height: 20px;
+    background-position: -271px -65px;
+}
+
+.sprite-green-3 {
+    width: 20px;
+    height: 20px;
+    background-position: -301px -65px;
+}
+
+.sprite-green-4 {
+    width: 20px;
+    height: 20px;
+    background-position: -331px -65px;
 }
 
 .sprite-green-check {
-    width: 315px;
-    height: 264px;
-    background-position: -271px -1082px;
+    width: 40px;
+    height: 40px;
+    background-position: -1965px -537px;
 }
 
 .sprite-green-light-bulb {
-    width: 315px;
-    height: 264px;
-    background-position: -596px -1082px;
+    width: 40px;
+    height: 40px;
+    background-position: -527px -587px;
 }
 
 .sprite-green-man {
     width: 82px;
     height: 70px;
-    background-position: -921px -1082px;
+    background-position: -1082px -842px;
 }
 
 .sprite-green-page {
-    width: 315px;
-    height: 264px;
-    background-position: -1013px -1082px;
+    width: 40px;
+    height: 40px;
+    background-position: -577px -587px;
+    float: left;
 }
 
 .sprite-green-paper {
     width: 58px;
     height: 66px;
-    background-position: -1338px -1082px;
+    background-position: -627px -587px;
 }
 .sprite-green-paper:hover{
-  background-position: -175px -5px;
+  background-position: -370px -5px;
 }
 
 .sprite-left-half-circle {
     width: 125px;
     height: 263px;
-    background-position: -1406px -1082px;
+    background-position: -1174px -842px;
 }
 
 .sprite-left-orange-arrow {
     width: 31px;
     height: 31px;
-    background-position: -1541px -1082px;
+    background-position: -1992px -65px;
     display: inline-block;
     margin-top: 5px;
 }
@@ -193,49 +284,49 @@
 .sprite-messages-blue {
     width: 58px;
     height: 65px;
-    background-position: -1582px -1082px;
+    background-position: -695px -587px;
 }
 
 .sprite-messages-green {
     width: 58px;
     height: 65px;
-    background-position: -1650px -1082px;
+    background-position: -763px -587px;
 }
 .sprite-messages-green:hover{
-  background-position: -1582px -1082px;
+  background-position: -695px -587px;
 }
 
 .sprite-orange-man {
     width: 82px;
     height: 70px;
-    background-position: -1718px -1082px;
+    background-position: -1309px -842px;
 }
 
 .sprite-page-creator {
     width: 45px;
     height: 50px;
-    background-position: -1810px -1082px;
+    background-position: -831px -587px;
 }
 
 .sprite-promotions-blue {
     width: 58px;
     height: 69px;
-    background-position: -1865px -1082px;
+    background-position: -886px -587px;
 }
 
 .sprite-promotions-green {
     width: 58px;
     height: 69px;
-    background-position: -1933px -1082px;
+    background-position: -954px -587px;
 }
 .sprite-promotions-green:hover{
-  background-position: -1865px -1082px;
+  background-position: -886px -587px;
 }
 
 .sprite-question {
     width: 30px;
     height: 30px;
-    background-position: -2001px -1082px;
+    background-position: -5px -106px;
     display: inline-block;
     margin: 10px;
 }
@@ -243,13 +334,13 @@
 .sprite-right-half-circle {
     width: 125px;
     height: 263px;
-    background-position: -2041px -1082px;
+    background-position: -1401px -842px;
 }
 
 .sprite-right-orange-arrow {
     width: 31px;
     height: 31px;
-    background-position: -2176px -1082px;
+    background-position: -45px -106px;
     display: inline-block;
     margin-top: 5px;
 }
@@ -257,7 +348,7 @@
 .sprite-search {
     width: 23px;
     height: 22px;
-    background-position: -3130px -5px;
+    background-position: -86px -106px;
     float: right;
     margin-top: 5px;
 }
@@ -265,43 +356,43 @@
 .sprite-see-how-others-ad {
     width: 284px;
     height: 174px;
-    background-position: -2217px -1082px;
+    background-position: -1536px -842px;
 }
 
 .sprite-twitter {
     width: 315px;
     height: 264px;
-    background-position: -2511px -1082px;
+    background-position: -1536px -1026px;
 }
 
 .sprite-twitter-icon {
     width: 1067px;
     height: 1067px;
-    background-position: -1338px -1355px;
+    background-position: -2033px -5px;
 }
 
 .sprite-up-blue-arrow {
     width: 315px;
     height: 264px;
-    background-position: -2836px -1082px;
+    background-position: -1861px -1082px;
 }
 
 .sprite-version-2-0-ad {
     width: 284px;
     height: 164px;
-    background-position: -5px -1356px;
+    background-position: -2186px -1082px;
 }
 
 .sprite-watch-what-you-say-ad {
     width: 284px;
     height: 164px;
-    background-position: -299px -1356px;
+    background-position: -2480px -1082px;
 }
 
 .sprite-white-gear {
     width: 30px;
     height: 30px;
-    background-position: -593px -1356px;
+    background-position: -1082px -1082px;
     display: inline-block;
     margin: 10px;
 }
@@ -309,5 +400,5 @@
 .sprite-youtube-icon {
     width: 256px;
     height: 256px;
-    background-position: -633px -1356px;
+    background-position: -2774px -1082px;
 }
