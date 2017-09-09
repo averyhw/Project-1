@@ -237,12 +237,14 @@
     width: 40px;
     height: 40px;
     background-position: -1965px -537px;
+    float: left;
 }
 
 .sprite-green-light-bulb {
     width: 40px;
     height: 40px;
     background-position: -527px -587px;
+    float: left;
 }
 
 .sprite-green-man {

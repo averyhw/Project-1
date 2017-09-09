@@ -128,9 +128,6 @@
   border-bottom: 0.5px solid lightgray;
   padding-top: 10px;
 }
-.borderz{
-  border-bottom: 0.5px dotted lightgray;
-}
 .task-link:hover{
   text-decoration: none;
 }
@@ -198,6 +195,8 @@
   margin-left: 40px;
 }
 
+/* RECOMMENDATIONS SECTION CSS */
+
 .rec-pic-1{
   height: 30px;
   width: auto;
@@ -210,6 +209,23 @@
   font-size: 6pt;
   margin: 0px;
 }
+.rec-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11pt;
+  color: black;
+}
+.borderz{
+  border-bottom: 0.5px dotted lightgray;
+}
+.rec-link:hover .rec-text{
+  color: gray;
+}
+
+/* END OF RECoMMENDATIONS SECTION CSS */
+
+
+
+
 .bar-graph{
   width: 100%;
   height: auto;
