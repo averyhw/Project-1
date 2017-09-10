@@ -276,10 +276,11 @@ input[type="checkbox"]:checked {
 
 /* END OF RECOMMENDATIONS SECTION CSS */
 
-/*CUSTOMERS SECTION CSS */
+/* CUSTOMERS SECTION CSS */
 
 .customers{
   float: right;
+  margin: 10px;
 }
 .customer1{
   display: inline-block;
@@ -299,9 +300,11 @@ input[type="checkbox"]:checked {
     color: white;
     font-size: 8pt;
     text-align: center;
+    margin: 0px;
 }
 .customer-text{
   background-color: #2498f4;
+  margin: 0px;
 }
 .orange-man{
   height: 100px;
@@ -309,10 +312,24 @@ input[type="checkbox"]:checked {
   display: block;
   margin-left: auto;
   margin-right: auto; /*refresher on centering images from https://www.w3.org/Style/Examples/007/center.en.html#block */
+  position: absolute;
+  top: -30px;
+  left: 110px; /* image on top of div from https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html */
+}
+.customer-div{
+  border: 1px solid lightgray;
+  display: inline-block;
+  padding-top: 60px;
+  position: relative;
+}
+.line-graph{
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /* END OF CUSTOMERS SECTION CSS */
 
+/* DID YOU KNOW SECTION CSS */
 
  .did-you-know{
    font-family: 'Open Sans', sans-serif;
@@ -327,17 +344,19 @@ input[type="checkbox"]:checked {
  .left-orange-arrow{
    position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
    top: 50px;
-   left: 10px;
+   left: 0px;
    height: 40px;
    width: auto;
  }
  .right-orange-arrow{
    position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
    top: 50px;
-   left: 540px;
+   left: 725px;
    height: 40px;
    width: auto;
  }
+
+ /* END OF DID YOU KNOW SECTION CSS */
 
  /* ADS SECTIONS CSS */
 
@@ -364,6 +383,8 @@ input[type="checkbox"]:checked {
  }
 
  /* END OF ADS SECTION CSS */
+
+ /* FOOTER SECTION CSS */
 
  .up-blue-arrow{
    height: 15px;
@@ -423,3 +444,4 @@ input[type="checkbox"]:checked {
  .extra{
    color: #2190e8
  }
+ /* END OF FOOTER SECTION CSS */
