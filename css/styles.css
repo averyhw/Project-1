@@ -51,6 +51,9 @@
   margin-top: 15px;
   background-color: white;
 }
+.search-text{
+  border: none;
+}
 #navlist{
   position: relative;
   display: inline;
@@ -135,34 +138,34 @@
 }
 .task-link:hover .sprite-blue-man-32{
   background-image: url('../pics/sprites.png');/*Help on sprite hover from Madison Walls */
-  background-position: -1764px -537px;
+  background-position: -70px -166px;
 }
 .task-link:hover .task-text{
   color: gray;
 }
 .task-link:hover .sprite-green-1{
   background-image: url('../pics/sprites.png');
-  background-position: -1992px -5px;
+  background-position: -438px -77px;
 }
 .task-link:hover .sprite-blue-man-36{
   background-image: url('../pics/sprites.png');
-  background-position: -1829px -537px;
+  background-position: -135px -166px;
 }
 .task-link:hover .sprite-green-2{
   background-image: url('../pics/sprites.png');
-  background-position: -1992px -35px;
+  background-position: -645px -77px;
 }
 .task-link:hover .sprite-green-3{
   background-image: url('../pics/sprites.png');
-  background-position: -141px -65px;
+  background-position: -5px -107px;
 }
 .task-link:hover .sprite-green-4{
   background-image: url('../pics/sprites.png');
-  background-position: -171px -65px;
+  background-position: -35px -107px;
 }
 .task-link:hover .sprite-blue-man-3{
   background-image: url('../pics/sprites.png');
-  background-position: -1699px -537px;
+  background-position: -5px -166px;
 }
 .task-stuff{
   display: inline-block;
@@ -170,14 +173,42 @@
 
 /* END OF TASK SECTION CSS */
 
-/* ACTIVITY SECTION CSS */
+/* ANALYTICS SECTION CSS */
 
+.analytics{
+  border-left: 1px solid lightgray;
+}
 .activity-text{
   font-family: 'Open Sans', sans-serif;
   color: gray;
   font-size: 10pt;
   margin-left: 40px;
   float: left;
+}
+.selection{
+  border: none;
+  background-color: white;
+}
+.dropdown{
+  border: 1px solid lightgray;
+  display: block;
+  padding: 0px;
+}
+.down-arrow{
+  margin: 6px;
+  border-left: 1px solid lightgray;
+}
+input[type="checkbox"] {
+    content: url(../pics/unchecked-box1.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+input[type="checkbox"]:checked {
+    content: url(../pics/checked-box2.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block; /* changing checkboxes to images from https://stackoverflow.com/questions/18009296/how-to-change-image-on-click-and-get-back-again-on-clicking */
 }
 .bar-graph{
   width: 100%;
@@ -200,17 +231,22 @@
 }
 .check-boxes{
   float: right;
+  margin: auto;
+}
+.checks{
+  display: inline;
 }
 .social-media{
-  margin-left: 5px;
   height: 50px;
   width: auto;
+  margin-bottom: 15px;
+  margin-right: 5px;
 }
 .checks::selection{
   background-image: url('../Project1/pics/empty-check-box.png');
 }
 
-/* END OF ACTIVITY SECTION CSS*/
+/* END OF ANALYTICS SECTION CSS*/
 
 /* RECOMMENDATIONS SECTION CSS */
 
@@ -238,14 +274,46 @@
   color: black;
 }
 
-/* END OF RECoMMENDATIONS SECTION CSS */
+/* END OF RECOMMENDATIONS SECTION CSS */
+
+/*CUSTOMERS SECTION CSS */
+
+.customers{
+  float: right;
+}
+.customer1{
+  display: inline-block;
+}
+.customer2{
+  display: inline-block;
+  float: right;
+}
+.contacts{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+}
+.influencers{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 8pt;
+    text-align: center;
+}
+.customer-text{
+  background-color: #2498f4;
+}
+.orange-man{
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /*refresher on centering images from https://www.w3.org/Style/Examples/007/center.en.html#block */
+}
+
+/* END OF CUSTOMERS SECTION CSS */
 
 
-
-/* FIXME:  */
-input[type=checkbox]:checked {
-     background: url('../Project1/pics/green-check.png') 0 0px no-repeat;
- }
  .did-you-know{
    font-family: 'Open Sans', sans-serif;
    color: white;
@@ -270,10 +338,9 @@ input[type=checkbox]:checked {
    height: 40px;
    width: auto;
  }
- .line-graph{
-   width: 300px;
-   height: auto;
- }
+
+ /* ADS SECTIONS CSS */
+
  .ads{
    background-color: #2190e8;
    text-align: center;
@@ -283,6 +350,7 @@ input[type=checkbox]:checked {
    margin: 10px;
    width: 100%;
    height: auto;
+   display: inline-block;
  }
  .ad1{
    border-radius: 5px;
@@ -292,7 +360,11 @@ input[type=checkbox]:checked {
    margin-top: 5px;
    width: 100%;
    height: auto;
+   display: inline-block;
  }
+
+ /* END OF ADS SECTION CSS */
+
  .up-blue-arrow{
    height: 15px;
    width: auto;

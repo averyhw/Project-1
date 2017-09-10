@@ -56,7 +56,7 @@
           <div class="col-md-5"></div>
           <div class="col-md-4 search">
             <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
-            <input type="text" name="search"><a href=#><i class="sprite sprite-search"></i></a>
+            <input class="search-text" type="text" name="search"><a href=#><i class="sprite sprite-search"></i></a>
             </form>
           </div>
 
@@ -187,17 +187,17 @@
 
    <!-- ANALYTICS -->
 
-             <div class="col-md-8">
+             <div class="col-md-8 analytics">
                  <p class="tasks">Analytics</p>
                  <div class="col-md-12 row">
-                   <p class="activity-text col-md-4">ACTIVITY</p>
-                   <form class="dropdown col-md-6">
-                      <select name="06/28/11 - 07/21/11"> <!--selection form from https://www.w3schools.com/html/html_form_elements.asp -->
+                   <p class="activity-text col-md-5">ACTIVITY</p>
+                   <form class="dropdown col-md-4">
+                      <select class="selection" name="06/28/11 - 07/21/11"> <!--selection form from https://www.w3schools.com/html/html_form_elements.asp -->
                        <option value="06/30/11 - 07/07/11">06/30/11 - 07/07/11</option>
                        <option value="06/30/11 - 07/14/11">06/30/11 - 07/14/11</option>
                        <option value="07/14/11 - TODAY">07/14/11 - TODAY</option>
                      </select><!--input from http://bootstrap-datepicker.readthedocs.io/en/latest/markup.html-->
-                     <i class="sprite sprite-left-orange-arrow"></i>
+                     <a href=#><i class="sprite sprite-orange-down-arrow down-arrow"></i></a>
                    </form>
                  </div>
                  <div class="row">
@@ -219,28 +219,43 @@
                  </div>
 
                  <div class="row">
-                   <div class="col-md-12">
-                 <div class="col-md-8 check-boxes">
-                   <input class="checks" id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook">
-                   <input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter">
-                   <input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare">
-                   <input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
-                 </div>
-               </div>
+                   <div class="col-md-8">
+                     <div class="col-md-12 check-boxes">
+                       <div class="checks"><input id="facebook" type="checkbox" name="Facebook" value="Facebook"><img class="social-media" src="../Project1/pics/facebook.png" alt="facebook"></div>
+                       <div class="checks"><input id="twitter" type="checkbox" name="Twitter" value="Twitter"><img class="social-media" src="../Project1/pics/twitter.png" alt="twitter"></div>
+                       <div class="checks"><input id="foursquare" type="checkbox" name="Foursquare" value="Foursquare"><img class="social-media" src="../Project1/pics/foursquare.png" alt="foursquare"></div>
+                       <div class="checks"><input id="google" type="checkbox" name="Google+" value="Google+"><img class="social-media" src="../Project1/pics/google.png" alt="google"></div> <!-- from http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
+                     </div>
+                   </div>
                </div><!--/row-->
              </div>
 
 
 
 <!-- CUSTOMERS -->
+          <div class="row">
+              <div class="col-md-7 customers">
+                  <div class="col-md-6 customer1">
+                    <div>
+                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/green-man.png">
+                    </div>
+                    <div class="col-md-12 customer-text"><p class="contacts">75 CONTACTS</p><p class="influencers">4 INFLUENCERS</p></div>
+                    <div>
+                      <img class="col-md-12 line-graph" src="../Project1/pics/green-graph.png">
+                    </div>
+                  </div>
+                  <div class="col-md-6 customer2">
+                    <div>
+                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/orange-man.png">
+                    </div>
+                    <div class="col-md-12 customer-text"><p class="contacts">17 CONTACTS</p><p class="influencers">0 INFLUENCERS</p></div>
+                    <div>
+                      <img class="col-md-12 line-graph" src="../Project1/pics/orange-graph.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
 
-      <div class="col-md-8 col-md-offset-4">
-        <div>
-          <img class="line-graph" src="../Project1/pics/green-graph.png">
-        </div>
-        <div>
-        </div>
-      </div>
 
 
 
@@ -257,8 +272,8 @@
 
           <div class="row">
             <p class="did-you-know">DID YOU KNOW?<br/>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
-            <a href=#><img class="left-orange-arrow" src="../Project1/pics/left-half-circle.png" alt="arrow"></a>
-            <a href=#><img class="right-orange-arrow" src="../Project1/pics/right-half-circle.png" alt="arrow"></a>
+            <a href=#><img class="left-orange-arrow" src="../Project1/pics/sprites/left-half-circle.png" alt="arrow"></a>
+            <a href=#><img class="right-orange-arrow" src="../Project1/pics/sprites/right-half-circle.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -270,11 +285,11 @@
 <!-- ADS -->
 
       <div class="row">
-        <div class="col-lg-10 col-sm-10 col-xs-12">
+        <div class="col-md-12">
           <div class="ads">
-            <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/watch-what-you-say-ad.png" alt="ad">
-            <img class="col-lg-3 col-sm-3 col-xs-3 ad1" src="../Project1/pics/see-how-others-ad.png" alt="ad">
-            <img class="col-lg-3 col-sm-3 col-xs-3 ad" src="../Project1/pics/version-2-0-ad.png" alt="ad">
+            <i class="col-md-3 sprite sprite-watch-what-you-say-ad"></i>
+            <i class="col-md-3 sprite sprite-see-how-others-ad"></i>
+            <i class="col-md-3 sprite sprite-version-2-0-ad"></i>
           </div>
         </div>
       </div><!--/row-->
