@@ -95,18 +95,12 @@
   color: black;
   font-size: 10pt;
 }
-.orange-arrow{
-  height: 20px;
-  width: auto;
-  text-align: center;
-}
+
+/* TASK SECTION CSS */
 .border-without-top{
   border: 1px solid lightgray;
   border-top: 0px;
 }
-
-/* TASK SECTION CSS */
-
 .tasks{
   font-family: 'Open Sans', sans-serif;
   color: #2190e8;
@@ -278,6 +272,10 @@ input[type="checkbox"]:checked {
 
 /* CUSTOMERS SECTION CSS */
 
+.customers-section{
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
 .customers{
   float: right;
   margin: 10px;
@@ -310,6 +308,7 @@ input[type="checkbox"]:checked {
   height: 100px;
   width: auto;
   display: block;
+  padding-top: 15px;
   margin-left: auto;
   margin-right: auto; /*refresher on centering images from https://www.w3.org/Style/Examples/007/center.en.html#block */
   position: absolute;
@@ -321,6 +320,7 @@ input[type="checkbox"]:checked {
   display: inline-block;
   padding-top: 60px;
   position: relative;
+  margin-bottom: 10px;
 }
 .line-graph{
   margin-bottom: 10px;
@@ -330,28 +330,33 @@ input[type="checkbox"]:checked {
 /* END OF CUSTOMERS SECTION CSS */
 
 /* DID YOU KNOW SECTION CSS */
-
+ .stuff{
+    border-top: 1px solid lightgray;
+  }
  .did-you-know{
+   width: 100%;
+   height: auto;
    font-family: 'Open Sans', sans-serif;
    color: white;
    font-size: 10pt;
    border: 1px solid #2190e8;
    border-radius: 5px;
    background-color: #2190e8;
-   padding: 35px;
+   padding: 50px;
    position: relative;
+   margin-top: 15px;
  }
  .left-orange-arrow{
    position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
-   top: 50px;
-   left: 0px;
+   top: 40%;
+   left: 15px;
    height: 40px;
    width: auto;
  }
  .right-orange-arrow{
    position: absolute; /*positioning images on top of one another from https://www.sitepoint.com/community/t/place-an-image-over-an-image/4264/2*/
-   top: 50px;
-   left: 725px;
+   top: 40%;
+   left: 93%;
    height: 40px;
    width: auto;
  }
@@ -360,9 +365,13 @@ input[type="checkbox"]:checked {
 
  /* ADS SECTIONS CSS */
 
+ .ad-section{
+   margin: 0px;
+ }
  .ads{
    background-color: #2190e8;
    text-align: center;
+   margin: 0px;
  }
  .ad{
    border-radius: 5px;
@@ -376,7 +385,7 @@ input[type="checkbox"]:checked {
    margin-right: 10px;
    margin-left: 10px;
    margin-bottom: 10px;
-   margin-top: 5px;
+   margin-top: 2px;
    width: 100%;
    height: auto;
    display: inline-block;
@@ -392,9 +401,7 @@ input[type="checkbox"]:checked {
    float: right;
    margin-top: 5px;
  }
- .dog{
-   height: 25px;
-   width: auto;
+ .car-icon{
    border: 1px solid white;
    border-radius: 5px;
    margin-right: 10px;
@@ -442,6 +449,6 @@ input[type="checkbox"]:checked {
    text-decoration: none;
  }
  .extra{
-   color: #2190e8
+   color: #2190e8;
  }
  /* END OF FOOTER SECTION CSS */
