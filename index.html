@@ -21,7 +21,7 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-xs-12 top-bar">
         <p class="dashboard-text1">
-          MINI of Raleigh <a href=#><i class="sprite sprite-question"></i></a><a href=#><i class="sprite sprite-white-gear"></i></a>
+          MINI of Raleigh <a href=#><i class="question-gear sprite sprite-question"></i></a><a href=#><i class="question-gear sprite sprite-white-gear"></i></a>
         </p>
       </div>
     </div> <!--/row-->
@@ -54,8 +54,8 @@
           <div class="col-xs-3 col-sm-3 col-lg-3">
             <p class="dashboard-text">Dashboard</p>
           </div>
-          <div class="col-md-5"></div>
-          <div class="col-md-4 search">
+          <div class="col-xs-0 col-md-5"></div>
+          <div class="col-xs-3 col-md-4 search">
             <form class="search-bar"> <!--https://www.w3schools.com/html/html_forms.asp-->
             <input class="search-text" type="text" name="search"><a href=#><i class="sprite sprite-search"></i></a>
             </form>
@@ -68,45 +68,47 @@
   </div><!--/container-->
 
 <!-- ANNOUNCEMENTS -->
-    <div class="container">
+<div class="gradient">
+<div class="all">
+  <div class="container">
 
-        <div class="row announcements">
+    <div class="row border-without-top">
+      <div class="container">
 
-            <div class="col-md-2 right-border">
-              <p class="announcements-text announce-content">ANNOUNCEMENTS</p>
-            </div>
-            <div class="col-md-9 right-border announce-content">
-              <p class="announce-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
-            </div>
-            <div class="col-md-1 announce-content">
-              <p><a href=#><i class="sprite sprite-left-orange-arrow"></i></a><a href=#><i class="sprite sprite-right-orange-arrow"></i></a></p>
-            </div>
+          <div class="row announcements">
 
-        </div><!--/row-->
+              <div class="col-md-2 right-border">
+                <p class="announcements-text announce-content announcement-title">ANNOUNCEMENTS</p>
+              </div>
+              <div class="col-md-9 right-border announce-content">
+                <p class="announce-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+              </div>
+              <div class="col-md-1 announce-content">
+                <p><a href=#><i class="sprite sprite-left-orange-arrow"></i></a><a href=#><i class="sprite sprite-right-orange-arrow"></i></a></p>
+              </div>
 
-    </div><!--/container-->
+          </div><!--/row-->
+
+      </div><!--/container-->
 
 
 
 <!-- TASKS -->
-<div class="container">
-
-     <div class="row border-without-top">
 
        <div class="col-md-4">
            <p class="tasks">Tasks <i class="sprite sprite-gray-gear"></i></p>
 
            <!-- TASK 1 -->
 
-           <a class="task-link" href=#>
+           <a class="task-link" href=#> <!--help on breaking up tasks into divs from Madison Walls-->
              <div class="task-one col-xs-12 col-md-12">
-                <div class="col-md-1 task-stuff">
+                <div class="col-xs-1 col-md-1 task-stuff">
                   <i class="sprite sprite-green-1"></i>
                 </div>
-                  <div class="col-md-8 task-stuff">
+                  <div class="col-xs-8 col-md-8 task-stuff">
                     <p class="task-text">Welcome Contacts</p>
                   </div>
-                <div class="blue-man-square col-md-2 task-stuff">
+                <div class="blue-man-square col-xs-2 col-md-2 task-stuff">
                   <i class="sprite sprite-blue-man-32"></i>
                 </div>
              </div></a>
@@ -238,26 +240,26 @@
               <div class="col-md-12 customers">
                 <div class="row">
                   <div class="col-md-12">
-                  <div class="col-md-6 customer1">
-                    <div>
-                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/green-man.png">
-                    </div>
+                  <div class="col-xs-12 col-md-6 customer1">
                     <div class="customer-div">
                       <div class="col-md-12 customer-text"><p class="contacts">75 CONTACTS</p><p class="influencers">4 INFLUENCERS</p></div>
                       <div>
                         <img class="col-md-12 line-graph" src="../Project1/pics/green-graph.png">
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-6 customer2">
                     <div>
-                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/orange-man.png">
+                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/green-man.png">
                     </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 customer2">
                     <div class="customer-div">
                       <div class="col-md-12 customer-text"><p class="contacts">17 CONTACTS</p><p class="influencers">0 INFLUENCERS</p></div>
                       <div>
                         <img class="col-md-12 line-graph" src="../Project1/pics/orange-graph.png">
                       </div>
+                    </div>
+                    <div>
+                      <img class="col-md-12 orange-man" src="../Project1/pics/sprites/orange-man.png">
                     </div>
                   </div>
                 </div>
@@ -297,6 +299,8 @@
     </div>
     </div><!--/main-row-->
 </div><!--/container-->
+</div><!--/all-->
+</div><!--/gradient-->
 
 
 <!-- FOOTER -->

@@ -1,10 +1,30 @@
+/*.gradient{
+  background-image: linear-gradient(to bottom, #ebebeb, white);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}*/
+.all{
+  background-color: white;
+  margin: 0px;
+  margin-top: 10px;
+}
+.black-text{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 10pt;
+}
+
+/* TOP BARS CSS */
 
 .top-bar{
   background-color: #2395f0;
   color: white;
 }
 .icon-bar{
-  background-color: #164872;
+  background-image: url('../pics/sprites/diagonal-bg.png');
+  background-repeat: repeat-x; /* repeating background images from https://www.w3schools.com/cssref/pr_background-repeat.asp */
+  background-color: #164972;
 }
 .icons{
   margin: auto;
@@ -12,6 +32,7 @@
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px
+
 }
 .dashboard{
   background-color: #33cc66;
@@ -27,25 +48,6 @@
   display: inline;
   float: right; /* idea to float from https://stackoverflow.com/questions/885691/how-to-make-a-ul-display-in-a-horizontal-row */
 }
-.announcements{
-  margin: auto;
-  border: 1px solid #ebebeb;
-  margin-top: 20px;
-}
-.announce-content{
-  text-align: center;
-}
-.announce-text{
-  font-size: 11pt;
-  font-family: 'Open Sans', sans-serif;
-  color:black;
-}
-.left-border{
-  border-left: 1px solid #ebebeb;
-}
-.right-border{
-  border-right: 1px solid #ebebeb;
-}
 .search-bar{
   float: right;
   margin-top: 15px;
@@ -54,23 +56,11 @@
 .search-text{
   border: none;
 }
-#navlist{
-  position: relative;
-  display: inline;
-  margin: auto;
-}
-#navlist li{
-  margin: 10;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  display: inline;
-}
-
 .icon-images{
   height: 60px;
   width: auto;
   margin-top: 10px;
+
 }
 .dashboard-text{
   font-family: 'Open Sans', sans-serif;
@@ -85,21 +75,45 @@
   float: right;
   margin-right: 30px;
 }
+/* END OF TOP BARS CSS */
+
+/* ANNOUNCEMENTS SECTION CSS */
+
+.announcements{
+  margin: auto;
+  border-bottom: 1px solid #ebebeb;
+}
+.announce-content{
+  text-align: center;
+  padding-left: 10px;
+}
+.announcement-title{
+  padding-top: 10px;
+}
+.announce-text{
+  font-size: 11pt;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  padding-top: 10px;
+}
+.left-border{
+  border-left: 1px solid #ebebeb;
+}
+.right-border{
+  border-right: 1px solid #ebebeb;
+}
 .announcements-text{
   font-family: 'Open Sans', sans-serif;
   color: orange;
   font-size: 12pt;
 }
-.black-text{
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 10pt;
-}
+
+/* END OF ANNOUNCEMENTS SECTION CSS */
 
 /* TASK SECTION CSS */
 .border-without-top{
   border: 1px solid #ebebeb;
-  border-top: 0px;
+  margin: 0px;
 }
 .tasks{
   font-family: 'Open Sans', sans-serif;
@@ -112,6 +126,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
   color: black;
+  display: inline-block;
 }
 .task-text:hover{
   color: gray;
@@ -243,9 +258,6 @@ input[type="checkbox"]:checked {
   margin-bottom: 15px;
   margin-right: 5px;
 }
-.checks::selection{
-  background-image: url('../Project1/pics/empty-check-box.png');
-}
 
 /* END OF ANALYTICS SECTION CSS*/
 
@@ -290,10 +302,12 @@ input[type="checkbox"]:checked {
 .customer1{
   display: inline-block;
   margin: 0px;
+  margin-top: 20px;
 }
 .customer2{
   display: inline-block;
   float: right;
+  margin-top: 20px;
 }
 .contacts{
   font-family: 'Open Sans', sans-serif;
@@ -320,8 +334,8 @@ input[type="checkbox"]:checked {
   margin-left: auto;
   margin-right: auto; /*refresher on centering images from https://www.w3.org/Style/Examples/007/center.en.html#block */
   position: absolute;
-  top: -30px;
-  left: 110px; /* image on top of div from https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html */
+  top: -36px;
+  left: 30%; /* image on top of div from https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html */
 }
 .customer-div{
   display: inline-block;

@@ -25,6 +25,7 @@
     background-position: -141px -5px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .sprite-blue-man-32 {
@@ -33,6 +34,7 @@
     background-position: -206px -5px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .sprite-blue-man-36 {
@@ -41,6 +43,7 @@
     background-position: -271px -5px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .sprite-blue-up-arrow {
@@ -59,7 +62,7 @@
 .sprite-customers-blue {
     width: 80px;
     height: 80px;
-    background-position: -141px -80px;
+    background-position: -141px -75px;
 }
 
 .sprite-customers-green {
@@ -68,7 +71,7 @@
     background-position: -231px -80px;
 }
 .sprite-customers-green:hover{
-  background-position: -149px -80px;
+  background-position: -151px -80px;
 }
 
 .sprite-dashboard-blue {
@@ -302,7 +305,9 @@
     height: 30px;
     background-position: -326px -315px;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .sprite-right-orange-arrow {
@@ -349,7 +354,9 @@
     height: 30px;
     background-position: -407px -315px;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .sprite-youtube-icon {
